@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/06/2015, 14:15:53
+    Author     : Eduarda De Brum
+*/
+
+*{
+	text-align:center;
+}
+
+h1{
+    font-family:monospace;
+    text-align: center;
+    font-size:40px;
+}
+
+h2{
+    font-family:monospace;
+    text-align: center;
+    font-size:40px;
+}
+
+h2::first-letter { 
+    font-size: 300%;
+    color:#FF0000;
+}
+
+table{
+    
+    
+}
+tr{
+    border-bottom-width: 100px;
+    
+}
+
+th{
+
+ width:500px;
+font-size:200%;
+color:#000000;
+padding-bottom: 40px;
+padding-left: -100px;
+text-align: center;
+}
+
+th::first-letter { 
+    font-size: 300%;
+    color:#FF0000;
+}
+th::second-letter { 
+    font-size: 300%;
+    color:#FF0000;
+}
+/*
+audio{
+    
+    display:none;
+}*/

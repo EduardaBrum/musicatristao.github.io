@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <title>Aula de Música</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="public/js/jquery-2.1.4.min.js"></script>
+        <script src="public/plugin/jquery.leanModal.min.js"></script>
+
+        <script type="text/javascript">
+
+
+            $(document).ready(function() {
+                $(".show-modal").leanModal();
+                $("a[rel*=leanModal]").leanModal();
+
+
+            });
+
+
+
+        </script>
+
+        <style>
+            #lean_overlay {
+                position: fixed;
+                z-index:100;
+                top: 0px;
+                left: 0px;
+                height:100%;
+                width:100%;
+                background: #000;
+                display: none;
+            }
+
+            .modal-window {
+                display: none;
+                background: #cccccc;
+                border: 1px solid #eee;
+            }
+
+            .imagem-modal{
+                height:300px; 
+                width:550px;
+
+            }
+            .audio-custom{
+
+
+            }
+
+
+
+
+
+        </style>
+
+    </head>
+    <body>
+
+        <!--Divs-->
+
+        <div class="modal-window" id="agogo">
+            <h2>Agogô</h2>
+            <img class="imagem-modal" src="imagens/agogo.jpg" > <br> 
+            
+              <audio class="audio-custom" preload="auto" controls>
+                <source src='som/agogo.mp3' type='audio/mpeg'>
+             </audio>
+        </div>
+
+        <!---->
+        <div class="modal-window" id="flauta" >
+            <h2>Flauta</h2>
+            <img class="imagem-modal" src="imagens/flauta.jpg"> <br> 
+
+            <audio class="audio-custom" preload="auto" controls>
+                <source src='som/Flauta.mp3' type='audio/mpeg'>
+            </audio>
+        </div>
+
+
+        <div class="modal-window" id="violao" >
+            <h2>Violão</h2>
+            <img class="imagem-modal" src="imagens/violao.jpg"> <br> 
+
+            <audio class="audio-custom" preload="auto" controls>
+                <source src='som/Violão.mp3' type='audio/mpeg'>
+            </audio>
+        </div>
+
+
+        <div class="modal-window" id="violino" >
+            <h2>Violino</h2>
+            <img class="imagem-modal" src="imagens/violino.jpg"> <br> 
+
+            <audio class="audio-custom" preload="auto" controls>
+                <source src='som/Violino.mp3' type='audio/mpeg'>
+            </audio>
+        </div>
+
+
+        <div class="modal-window" id="xilofone" >
+            <h2>Xilofone</h2>
+            <img class="imagem-modal" src="imagens/xilofone.jpg"> <br> 
+
+            <audio class="audio-custom" preload="auto" controls>
+                <source src='som/Xilofone.mp3' type='audio/mpeg'>
+            </audio>
+        </div>
+
+
+        <div class="modal-window" id="trompete" >
+            <h2>Trompete</h2>
+            <img class="imagem-modal" src="imagens/trompete.jpg"> <br> 
+
+            <audio class="audio-custom" preload="auto" controls>
+                <source src='som/Trompete.mp3' type='audio/mpeg'>
+            </audio>
+        </div>
+
+        <div class="modal-window" id="piano" >
+            <h2>Piano</h2>
+            <img class="imagem-modal" src="imagens/piano.jpg"> <br> 
+
+            <audio class="audio-custom" preload="auto" controls>
+                <source src='som/Piano.mp3' type='audio/mpeg'>
+            </audio>
+        </div>
+
+
+        <div class="modal-window" id="marimba" >
+            <h2>Marimba</h2>
+            <img class="imagem-modal" src="imagens/Marimba.jpeg"> <br> 
+
+            <audio class="audio-custom" preload="auto" controls>
+                <source src='som/Marimba.mp3' type='audio/mpeg'>
+            </audio>
+        </div>
+
+
+        <div class="modal-window" id="ganza" >
+            <h2>Ganza</h2>
+            <img class="imagem-modal" src="imagens/ganza.jpg"> <br> 
+
+            <audio class="audio-custom" preload="auto" controls>
+                <source src='som/Ganzá.mp3' type='audio/mpeg'>
+            </audio>
+        </div>
+
+        <div class="modal-window" id="repique" >
+            <h2>Repique</h2>
+            <img class="imagem-modal" src="imagens/repique.jpg"> <br> 
+            
+             <audio class="audio-custom" preload="auto" controls>
+                <source src='som/repique.mp3' type='audio/mpeg'>
+             </audio>
+           
+        </div>
+        
+          <div class="modal-window" id="surdo" >
+            <h2>Surdo</h2>
+            <img class="imagem-modal" src="imagens/surdo.jpg"> <br> 
+            
+              <audio class="audio-custom" preload="auto" controls>
+                <source src='som/surdo.mp3' type='audio/mpeg'>
+            </audio>
+           
+        </div>
+        
+        <div class="modal-window" id="tamborim" >
+            <h2>Tamborim</h2>
+            <img class="imagem-modal" src="imagens/tamborim.jpg"> <br> 
+           
+             <audio class="audio-custom" preload="auto" controls>
+                <source src='som/tamborim.mp3' type='audio/mpeg'>
+            </audio>
+        </div>
+        
+         <div class="modal-window" id="tarol" >
+            <h2>Tarol</h2>
+            <img class="imagem-modal" src="imagens/tarol1.jpg"> <br> 
+           
+            <audio class="audio-custom" preload="auto" controls>
+                <source src='som/tarol.mp3' type='audio/mpeg'>
+            </audio>
+        </div>
+
+        <div class="modal-window" id="harmonica" >
+            <h2>Harmônica</h2>
+            <img class="imagem-modal" src="imagens/harmonica.jpg"> <br> 
+           
+            <audio class="audio-custom" preload="auto" controls>
+                <source src='som/Harmonica.mp3' type='audio/mpeg'>
+            </audio>
+        </div>
+        
+        
+        <div class="modal-window" id="pandeiro" >
+            <h2>Pandeiro</h2>
+            <img class="imagem-modal" src="imagens/pandeiro.jpg"> <br> 
+           
+            <audio class="audio-custom" preload="auto" controls>
+                <source src='som/pandeiro.mp3' type='audio/mpeg'>
+            </audio>
+        </div>
+
+        <!---->
+        <div class="modal-window" id=""><p>marimba</p></div>
+
+        <div class="modal-window" id="violao"></div>
+
+
+        <!---->
+
+        <h1>Aula de Música</h1>
+        <hr>
+
+        <table align="center">
+            <tr>
+                <th><a class="show-modal" rel="leanModal" href="#agogo"><img src="imagens/agogo.jpg" height="300" width="300"> </a> </th>
+                <th><a class="show-modal" rel="leanModal" href="#flauta"><img src="imagens/flauta.jpg"  height="300" width="300"></a></th> 
+                <th><a class="show-modal" rel="leanModal" href="#ganza"><img src="imagens/ganza.jpg" height="300" width="300"></a></th><br/>
+        </tr><br/>
+
+        <tr>
+            <th>Agogô</th>
+            <th>Flauta</th> 
+            <th>Ganza</th> 
+        </tr>
+
+        <tr>
+            <th><a class="show-modal" rel="leanModal" href="#harmonica"><img src="imagens/harmonica.jpg" height="300" width="300"> </a> </th>
+            <th><a class="show-modal" rel="leanModal" href="#marimba"><img src="imagens/Marimba.jpeg"  height="300" width="300"></a></th> 
+            <th><a class="show-modal" rel="leanModal" href="#pandeiro"><img src="imagens/pandeiro.jpg" height="300" width="300"></a></th><br/>
+    </tr><br/>
+
+    <tr>
+        <th>Harmônica</th>
+        <th>Marimba</th> 
+        <th>Pandeiro</th> 
+    </tr>
+
+    <tr>
+        <th><a class="show-modal" rel="leanModal" href="#piano"><img src="imagens/piano.jpg" height="300" width="300"> </a> </th>
+        <th><a class="show-modal" rel="leanModal" href="#repique"><img src="imagens/repique.jpg" height="300" width="300"></a></th><br/>
+        <th><a class="show-modal" rel="leanModal" href="#surdo"><img src="imagens/surdo.jpg" height="300" width="300"> </a> </th>
+
+</tr><br/>
+
+<tr>
+    <th>Piano</th>
+    <th>Repique</th> 
+    <th>Surdo</th> 
+</tr>
+
+<tr>
+    <th><a class="show-modal" rel="leanModal" href="#tamborim"><img src="imagens/tamborim.jpg" height="300" width="300"> </a> </th>
+    <th><a class="show-modal" rel="leanModal" href="#tarol"><img src="imagens/tarol1.jpg" height="300" width="300"></a></th><br/>
+    <th><a class="show-modal" rel="leanModal" href="#trompete"><img src="imagens/trompete.jpg"  height="300" width="300"></a></th> 
+</tr><br/>
+
+<tr>
+    <th>Tamborim</th>
+    <th>Tarol</th>
+    <th>Trompete</th> 
+</tr>
+
+<tr>
+    <th><a class="show-modal" rel="leanModal" href="#violao"><img src="imagens/violao.jpg" height="300" width="300"></a></th><br/>
+    <th><a class="show-modal" rel="leanModal" href="#violino"><img src="imagens/violino.jpg" height="300" width="300"> </a> </th>
+    <th><a class="show-modal" rel="leanModal" href="#xilofone"><img src="imagens/xilofone.jpg"  height="300" width="300"></a></th> 
+</tr><br/>
+
+<tr>
+    <th>Violão</th>
+    <th>Violiono</th>
+    <th>Xilonofe</th> 
+</tr>
+
+</table>
+
+</body>
+</html>
